@@ -29,4 +29,8 @@ ____________________________________________________________________________
 Loyout - how to read it:
     The 5 asterisks with spaces between are refered to as values.
         ex: * * * * * 
-    The code that follows is know as the comman
+    The text that follows the asterisks is know as the command_to_execute.
+        - These commands are written in the same commands as your termnial commands.
+
+
+    ------- more notes to come -------
