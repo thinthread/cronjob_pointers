@@ -1,0 +1,32 @@
+Suggested notes to keep in your crontab for your etification, are denoted by #:
+
+#  ____________ minutes (0 - 59)
+# |  ____________ hour  (0 - 23)
+# | |  ____________ day of month = date (1 - 31)
+# | | |  ____________ month (1 - 12)
+# | | | |  ____________ day of week (0 - 6) (Sundsay to Saturday;
+# | | | | |                          7 is also Sunday on some systems)
+# | | | | |
+# | | | | |
+# * * * * * command_to_execute
+
+# AM - Civilian Time: 12am 1am 2am 3am 4am 5am 6am 7am 8am 9am 10am 11am
+# AM - Military Time: 0    1   2   3   4   5   6   7   8   9   10   11
+# PM - Cevelian Time: 12pm 1pm 2pm 3pm 4pm 5pm 6pm 7pm 8pm 9pm 10pm 11pm
+# PM - Military Time: 12   13  14  15  16  17  18  19  20  21  22   23
+
+# opeerators:
+  # ',' comma operator - 
+        # works like and, 1st,15th day of month
+  # '/' forward-last operator - 
+        # ex: min */10 - run every ten min
+        # ex: day of month  */3 run - every days
+  # '-' dash operator - 
+        # ex: hour 0-5 - run 12am-5am
+
+____________________________________________________________________________
+
+Loyout - how to read it:
+    The 5 asterisks with spaces between are refered to as values.
+        ex: * * * * * 
+    The code that follows is know as the comman
